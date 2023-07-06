@@ -1,0 +1,27 @@
+{
+  "name": "backend-assignment",
+  "version": "1.0.0",
+  "description": "In this assignment, you will be tasked with developing a Node.js backend application that demonstrates your proficiency in backend development, specifically with Node.js and SQL databases. The assignment will assess your ability to architect and implement APIs, handle database operations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icchigoo/backend-assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icchigoo/backend-assignment/issues"
+  },
+  "homepage": "https://github.com/icchigoo/backend-assignment#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.1.3",
+    "express": "^4.18.2"
+  }
+}
